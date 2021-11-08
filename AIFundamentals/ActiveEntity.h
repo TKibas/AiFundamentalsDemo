@@ -4,13 +4,13 @@
 
 class ActiveEntity abstract
 {
-private:
+protected:
 	Vec2 loc;
 public:
-	virtual void Load();
-	virtual void Update();
-	virtual void Render();
-	virtual void Cleanup();
+	virtual void Load() = 0;
+	virtual void Update()= 0;
+	virtual void Render() = 0;
+	virtual void Cleanup() = 0;
 
 	//
 

@@ -27,6 +27,9 @@
     <ClCompile Include="Camera.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h">
@@ -39,6 +42,9 @@
       <Filter>Utility</Filter>
     </ClInclude>
     <ClInclude Include="VisibleEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

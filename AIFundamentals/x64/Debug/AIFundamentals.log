@@ -1,4 +1,5 @@
-﻿  Main.cpp
-  Vector2D.cpp
+﻿  Camera.cpp
+  Main.cpp
+  Renderer.cpp
   Generating Code...
   AIFundamentals.vcxproj -> C:\Users\titas\Desktop\AIFundamentals\x64\Debug\AIFundamentals.exe

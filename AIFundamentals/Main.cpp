@@ -1,7 +1,10 @@
 #include <SDL.h>
 #include <SDL_timer.h>
 
+#include <vector>
+
 #include "Vector2D.h"
+#include "Camera.h"
 
 #include <stdio.h>
 #include <iostream>
@@ -14,6 +17,10 @@ int main(int argc, char* argv[])
     SDL_Window* mainWindow = nullptr;
 
     SDL_Surface* screenSurface = nullptr;
+
+    Camera globalCamera;
+
+    std::vector<ActiveEntity> totalEntityList;
 
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
     {

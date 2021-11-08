@@ -153,11 +153,13 @@
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Renderer.cpp" />
     <ClCompile Include="Vector2D.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ActiveEntity.h" />
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Renderer.h" />
     <ClInclude Include="Vector2D.h" />
     <ClInclude Include="VisibleEntity.h" />
   </ItemGroup>
